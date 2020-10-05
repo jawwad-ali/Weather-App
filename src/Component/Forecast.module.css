@@ -1,0 +1,36 @@
+.forecast_container {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    margin-top: 48px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.date {
+    color: #fafafa;
+    font-size: 14px;
+}
+
+.icon {
+    height: 70px;
+    width: 70px;
+}
+
+.Temp {
+    color: darkgray;
+    display: inline-block;
+    font-size: 18px;
+}
+
+hr:nth-child(1) {
+    width: 70%;
+}
+
+hr {
+    opacity: 0.5;
+    background: #fafafa;
+    width: 50%;
+}

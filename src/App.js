@@ -1,13 +1,15 @@
-import React  from 'react';
+import React from 'react';
 import './App.css';
-import FetchArticle from './FetchArticle';
+import Forecast from './Component/Forecast';
+import Weather from './Component/Weather';
 
 function App() {
-return(
-  <div>
-    <FetchArticle />
-  </div>
-)
+  return (
+    <div>
+      <Weather />
+      <Forecast />
+    </div>
+  )
 }
 
 export default App;
