@@ -4,7 +4,7 @@ import styles from "./Forecast.module.css"
 export default function Forecast() {
 
     const [forecastData, setForecastData] = useState([])
-    const [loading, setLoading] = useState(false)
+    const [loading, setLoading] = useState(false) 
 
     // FORECAST
     useEffect(() => {
@@ -31,11 +31,11 @@ export default function Forecast() {
     return (
         <div className={styles.dataContainer}>
             <hr />
-            <ul>
+            <ul className={styles.forecastList}>
                 {
                     forecastData.map((data, date) => {
                         return (
-                            <div key={date} >
+                            <div className={styles.forecast} key={date} >
                                 <div className={styles.forecast_container} key={date}>
                                     <li className={styles.date}>{data.date}</li>
                                     <li>

@@ -34,3 +34,20 @@ hr {
     background: #fafafa;
     width: 50%;
 }
+
+@media only screen and (max-width:600px){
+    .forecast{
+        /* background: #000; */
+        position: relative;
+        right:23px;
+    }
+}
+
+
+@media only screen and (min-width:768px){
+    .forecast{
+        /* background: #000; */
+        position: relative;
+        right:30px;
+    }
+}

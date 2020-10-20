@@ -1,0 +1,19 @@
+.footer{
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    background: #40343a;
+    text-align: center;
+    padding:5px;
+}
+
+.icon_div{
+    /* background: #000; */
+    width: 50%;
+    margin:0 auto;
+}
+.icon{
+    color: white;
+    font-size: 50px !important;
+    padding-right: 15px;
+}

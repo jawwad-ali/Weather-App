@@ -6,7 +6,7 @@ export default function Weather() {
     const [data, setData] = useState([])
     const [locationData, setlocationData] = useState([])
     const [condition, setCondition] = useState([])
-    const [isLoading, setLoading] = useState(false)
+    const [isLoading, setLoading] = useState(false) 
 
     useEffect(() => {
         async function callApi() {
