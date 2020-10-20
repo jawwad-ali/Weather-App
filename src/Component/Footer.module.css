@@ -4,7 +4,7 @@
     width: 100%;
     background: #40343a;
     text-align: center;
-    padding:5px;
+    padding:8px;
 }
 
 .icon_div{
@@ -14,6 +14,6 @@
 }
 .icon{
     color: white;
-    font-size: 50px !important;
+    font-size: 50px ;
     padding-right: 15px;
 }

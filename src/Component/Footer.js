@@ -8,10 +8,10 @@ function Footer() {
         <div className={styles.footer}>
             <div className={styles.icon_div}>
                 <a href="https://github.com/jawwad-ali">
-                    <GitHubIcon className={styles.icon} />
+                    <i style={{ color: "white", paddingRight: "15px" }} className="fa fa-github fa-2x" aria-hidden="true"></i>
                 </a>
                 <a href="https://www.facebook.com/ali.jawwad.56/">
-                    <FacebookIcon className={styles.icon} />
+                    <i style={{ color: "white" }} className="fa fa-facebook fa-2x" aria-hidden="true"></i>
                 </a>
             </div>
         </div>
