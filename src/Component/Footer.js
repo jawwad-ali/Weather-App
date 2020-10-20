@@ -1,7 +1,5 @@
 import React from 'react'
 import styles from "./Footer.module.css"
-import FacebookIcon from '@material-ui/icons/Facebook';
-import GitHubIcon from '@material-ui/icons/GitHub';
 
 function Footer() {
     return (
